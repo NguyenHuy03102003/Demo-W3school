@@ -1,7 +1,211 @@
 :root {
     --primary--color: #f44336;
 }
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./font/Poppins/Poppins-Light.ttf);
+}
+body {
+    margin: -8px;
+    height: 100%;
+    font-family: Poppins;
+    font-size: 16px;
+
+}
 
 .coll-8 {
     padding: 8px 0;
 }
+.opacity-06 {
+    opacity: 0.6;
+}
+.sidebar {
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    color: #FFF;
+    background-color: var(--primary--color);
+    padding: 8px 16px;
+    float: left;
+    position: fixed;
+}
+.sidebar .title {
+    margin: 10px 0;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 64px 16px;
+    
+}
+.bar-item {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+
+}
+.Home {
+    margin: 8px 32px 8px 322px;
+    position: relative;
+    padding: 80px 8px 8px;
+    display: table;
+}
+.Home h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    margin: 0;
+}
+.content b {
+    display: inline-block;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--primary--color);
+}
+.Line-weght {
+    width: 50px;
+    border-color: var(--primary--color);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 5px;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.block-img {
+    width: 100%;
+    display: inline-block;
+    margin-top: 16px;
+}
+.block-img .half-coll-left {
+    width: calc(50% - 8px);
+    display: inline-block;
+    float: left;
+    margin-bottom: 32px;
+}
+
+.block-img .half-coll-right {
+    width: calc(50% - 8px);
+    display: inline-block;
+    float: right;
+    margin-bottom: 32px;
+}
+.img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 4px;
+}
+
+.depcrision-services {
+    line-height: 1.5;
+    margin-bottom: 64px;
+}
+
+.designer-people{
+    display: block;
+}
+.designer-people .designer-box-item{
+    width: 32%;
+    display: inline-block;
+    background-color: rgba(3,3,3,0.1);
+    margin: 16px 2px 64px;
+
+}
+.designer-people .designer-box-item img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.designer-people .designer-box-item p,
+.designer-people .designer-box-item h3{
+    padding: 0 16px;
+}
+.package-block{
+    width: 100%;
+    margin-bottom: 64px;
+    margin-right: 32px;
+}
+.package-block .packages {
+    width: 48%;
+    display: inline-block;
+    background-color: #f1f1f1;
+
+}
+.package-block .packages ul {
+    margin: 0;
+    padding-left: 0;
+}
+.package-block .packages li {
+    padding: 16px 0;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    line-height: 16px;
+}
+.package-block .package-pro {
+    float: right;
+}
+.package-block .package-basic li:first-child,
+.package-block .package-pro li:first-child{
+    padding: 32px 0;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFF!important;
+}
+.package-block .package-basic li:first-child {
+    background-color: rgb(97,97,97);
+}
+.package-block .package-pro li:first-child{
+    background-color: var(--primary--color);
+}
+.package-block .package-basic button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 24px;
+    border: none;
+    color: black;
+    background-color: #FFF!important;
+}
+.package-block .package-pro button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    background-color: var(--primary--color)!important;
+}
+.package-block .package-basic {
+
+}
+.container{
+}
+.container label {
+    display: block;
+    padding-top: 16px;
+}
+
+.container input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    line-height: 24px;
+    border:1px solid #ccc;
+    margin-right: 0;
+
+}
+.container button {
+    width: 100%;
+    line-height: 24px;
+    padding: 12px 24px;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+    background-color: var(--primary--color);
+}
+
