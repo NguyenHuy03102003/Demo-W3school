@@ -29,7 +29,6 @@ body {
     color: #FFF;
     background-color: var(--primary--color);
     padding: 8px 16px;
-    float: left;
     position: fixed;
 }
 .sidebar .title {
@@ -90,14 +89,12 @@ body {
 .block-img .half-coll-left {
     width: calc(50% - 8px);
     display: inline-block;
-    float: left;
     margin-bottom: 32px;
 }
 
 .block-img .half-coll-right {
     width: calc(50% - 8px);
     display: inline-block;
-    float: right;
     margin-bottom: 32px;
 }
 .img{
