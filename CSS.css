@@ -49,6 +49,11 @@ body {
     line-height: 27px;
 
 }
+.white-hover:hover {
+    color: black;
+    background-color: #FFF;
+
+}
 .Home {
     margin: 8px 32px 8px 322px;
     position: relative;
@@ -100,8 +105,11 @@ body {
     height: 300px;
     object-fit: cover;
     margin-bottom: 4px;
+    cursor: pointer;
 }
-
+.opacity-img-hover:hover {
+    opacity: 0.6;
+}
 .depcrision-services {
     line-height: 1.5;
     margin-bottom: 64px;
@@ -170,7 +178,7 @@ body {
     padding: 12px 24px;
     border: none;
     color: black;
-    background-color: #FFF!important;
+    background-color: #FFF;
 }
 .package-block .package-pro button {
     font-size: 16px;
@@ -178,13 +186,13 @@ body {
     padding: 12px 24px;
     border: none;
     color: white;
-    background-color: var(--primary--color)!important;
+    background-color: var(--primary--color);
 }
-.package-block .package-basic {
+.package-block .packages button:hover {
+    color: #FFF;
+    background-color: black;
+}
 
-}
-.container{
-}
 .container label {
     display: block;
     padding-top: 16px;
@@ -207,5 +215,9 @@ body {
     color: #FFF;
     border: none;
     background-color: var(--primary--color);
+}
+.container button:hover {
+    color: black;
+    background-color: #ccc;
 }
 
